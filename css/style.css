@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+body {
+  background: #d0e7fe;
+  background: -webkit-linear-gradient(
+    to right,
+    #fffde4,
+    #d0e7fe
+  );
+  background: linear-gradient(
+    to right,
+    #fffde4,
+    #d0e7fe
+  );
+
+  font-family: "Ubuntu", sans-serif !important;
+}
+
+.logo img {
+  width: 130px !important;
+  float: left !important;
+  top: auto;
+}
+
+.comenzar {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.comenzar button {
+  text-decoration: none !important;
+  color: #ffffff !important;
+  background-color: #297ff9;
+  border-color: transparent;
+  width: 150px !important;
+  border-radius: 5px;
+}
+
+.p-descrip{
+    font-size: 12px !important;
+}
+
+.cont-pagina{
+    font-size: 15px !important;
+    text-align: end;
+}
