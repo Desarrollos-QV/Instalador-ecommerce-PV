@@ -22,6 +22,11 @@ body {
   top: auto;
 }
 
+.card-title img{
+  width: 100px !important;
+  float: right !important;
+}
+
 .comenzar {
   position: absolute;
   top: 50%;
