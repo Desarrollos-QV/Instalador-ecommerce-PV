@@ -33,13 +33,14 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.comenzar button {
+.comenzar a {
   text-decoration: none !important;
   color: #ffffff !important;
   background-color: #297ff9;
   border-color: transparent;
   width: 150px !important;
   border-radius: 5px;
+  padding: 10px;
 }
 
 .p-descrip{
