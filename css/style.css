@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 
-body {
+body,html {
+  margin: 0;
+  padding: 0;
   background: #d0e7fe;
   background: -webkit-linear-gradient(
     to right,
@@ -16,12 +18,6 @@ body {
   font-family: "Ubuntu", sans-serif !important;
 }
 
-.logo img {
-  width: 130px !important;
-  float: left !important;
-  top: auto;
-}
-
 .card-title img{
   width: 100px !important;
   float: right !important;
@@ -33,6 +29,13 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+
+#map {
+  width: 300px;
+  height: 300px;
+}
+
 .comenzar a {
   text-decoration: none !important;
   color: #ffffff !important;
@@ -43,6 +46,11 @@ body {
   padding: 10px;
 }
 
+iframe {
+  max-width: 100%;
+  height: 100%;
+}
+
 .p-descrip{
     font-size: 12px !important;
 }
@@ -51,3 +59,4 @@ body {
     font-size: 15px !important;
     text-align: end;
 }
+
